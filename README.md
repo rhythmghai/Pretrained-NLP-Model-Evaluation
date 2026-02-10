@@ -73,3 +73,37 @@ Recall          → 0.15
 F1 Score        → 0.25
 Inference Time  → 0.10
 Model Size      → 0.10
+'''
+
+## 🏆 Results Summary
+
+- **ALBERT-base-v2** achieved the highest TOPSIS score due to its strong recall and balanced efficiency.
+- **DistilBERT** offered a good trade-off between speed and performance.
+- **BERT-base** performed poorly without fine-tuning, highlighting the importance of task adaptation.
+- The results demonstrate that **multi-criteria evaluation provides better insights** than relying on accuracy alone.
+
+---
+
+## 📌 Key Observations
+
+- Pretrained models without fine-tuning may underperform on task-specific datasets.
+- Lightweight models can outperform larger models when efficiency is considered.
+- **TOPSIS** helps identify models that are closest to the ideal solution across all evaluation metrics.
+
+---
+
+## 🛠️ Tech Stack
+
+- Python  
+- Hugging Face Transformers  
+- Hugging Face Datasets  
+- Scikit-learn  
+- NumPy  
+- Pandas  
+
+---
+
+## 🚀 How to Run
+
+```bash
+pip install transformers datasets scikit-learn pandas numpy
