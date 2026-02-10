@@ -73,7 +73,7 @@ Recall          → 0.15
 F1 Score        → 0.25
 Inference Time  → 0.10
 Model Size      → 0.10
-'''
+```
 
 ## 🏆 Results Summary
 
